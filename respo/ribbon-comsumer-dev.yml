@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ribbon-comsumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/
